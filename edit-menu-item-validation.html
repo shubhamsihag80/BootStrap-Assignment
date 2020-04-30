@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+  
+<title>Bootstrap grid testing</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+      <header>
+   <div style="background-color: lightgreen;height: 50px;width: 100%;">
+    <img src="images/truyum-logo-dark.png" style="float:left;width:42px;height:42px;">&nbsp;<span style="font-size: x-large;font-style: bold;">truYum</span> 
+    <div style="float:right;margin-right: 50px;"><a href="menu-item-list-customer.html" style="text-decoration: none;color: black;">Menu Items</a></div>
+    </div>
+
+</header>
+<div>
+    <br>
+    <center><h1>Edit Menu Item</h1><br>
+    <table border="0px">
+        <tr>
+            <td>
+                Item Name
+            </td>
+			<td>
+                <input type="text" width="60%" id="itemname" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Price&nbsp;&nbsp;</td>
+			<td><input type="text" id="price" required>&nbsp;&nbsp;</td>
+        </tr>
+		<tr>
+			<td>Date of Launch&nbsp;&nbsp;</td>
+			<td><input type="date" id="date" required>&nbsp;&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Category&nbsp;&nbsp;</td>
+			<td><select required><option>Main Course</option><option>Snacks</option></select>&nbsp;&nbsp;</td>
+		</tr>
+        <tr>
+            <td>Active</td>
+            <td><input type="radio" name="active" required>&nbsp;yes&nbsp;<input type="radio" name="active">&nbsp;No</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox">&nbsp;Free Deivery</td>
+			<td><input type="button" value="Save"></td>
+        </tr>
+    </table></center>
+</div>
+<footer>
+    <br>
+    <div style="background-color: lightgreen;height: 50px;width: 100%;">
+        <span style="font-size:large;"><b>Created by: Shubham Singh</b>
+        </span> 
+        
+        </div>
+</footer>
+
+   </div>
+  </body>
+  </html>
